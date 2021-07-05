@@ -1,0 +1,119 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body {
+    font-family: IBM Plex Sans;
+}
+
+button {
+    font-family: inherit;
+}
+
+.wrapper {    
+    width: 1080px; 
+    height: 665px; 
+    padding: 20px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #ffffff; 
+    background: url(../img/ellipse_yellow.png) top left no-repeat, url(../img/ellipse_blue.png) bottom right no-repeat;
+    background-color: #ff8577;
+}
+
+.text-container__item {
+    margin-right: 50px;
+    display: flex; 
+    justify-content: flex-end; 
+    font-weight: 300; 
+    font-size: 32px; 
+}  
+
+.overlay {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.modal {
+    width: 699px; 
+    height: 305px; 
+    padding: 30px; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-around;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0px 8px 30px 0px #0000001F;
+
+}
+
+.modal__title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.modal__text {
+    font-size: 17px;
+}
+
+.quote {
+    color: #ff0000;
+}
+
+.modal__container-btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+  .modal__btn {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    font-size: 16px; 
+    font-weight: 700; 
+    width: 26%; 
+    height: 50px; 
+    border: solid 2px; 
+    border-radius: 6px; 
+    color: #1F1F1F;
+    background-color: #ffffff; 
+  }
+
+  .modal_btn-active {
+    width: 39%; 
+    color: #ffffff; 
+    background-color: #222222;
+    ; 
+}
+
+.footer__item {
+    display: flex;
+    align-items: center;
+}
+
+.footer__button{
+
+    width: 170px;
+    height: 60px;
+    font-size: 16px;
+    font-weight: 700;
+    color: inherit;
+    background-color: inherit;
+    border-color: #ffffff;
+    border-radius: 6px;
+    border: solid 2px;
+}
+
+.arrow__once {
+    margin: 0px 10px;
+}
+
+.footer__text {
+    font-size: 16px;
+    font-weight: 700;
+}
